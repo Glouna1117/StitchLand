@@ -1,0 +1,92 @@
+#headerSection {
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    left: 45%;
+    top: -10px;
+}
+
+#signIn{
+    left: 65%;
+}
+
+.buttonHeader{
+    position: absolute;
+    top: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #252525;
+}
+
+.buttonHeader:hover{
+    color: #0075bd;
+}
+
+#explication{
+    font-family: Arial, "sans-serif";
+    text-align: center;
+    color:  #615d5d;
+}
+
+#imgMain {
+    position: relative;
+}
+
+#stitch{
+    width: 220px;
+    height: auto;
+    position: absolute;
+    top: 338px;
+    left: 30%;
+}
+
+#panneaux{
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 230px;
+    left: 35%;
+}
+
+#accueil{
+    top: 309px;
+    left: 45.7%;
+
+}
+
+#boutique{
+    top: 275px;
+    left: 45.7%;
+
+}
+
+#information{
+    top: 345px;
+    left: 45.7%;
+
+}
+
+.buttonMain {
+    width: 150px;
+    height: 25px;
+    position: absolute;
+    background-color: #ccefff;
+    border: 2px solid #30a1ff;
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.buttonMain:hover {
+    background-color: #30a1ff;
+    color: white;
+}
